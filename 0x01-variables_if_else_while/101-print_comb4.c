@@ -2,15 +2,14 @@
 
 /**
 * main - program that prints all possible different combinations of 3 digits.
-* Return: 0
- */
+ * Return: 0
+*/
 int main(void)
 {
-	int c = 0;
+int c = 0;
 int f_d;
 int m_d;
 int l_d;
-
 while (c <= 999)
 {
 f_d = (c / 100 + '0');
